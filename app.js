@@ -59,9 +59,10 @@ const bookingRouter = require('./routes/bookingRouter');
 // This brings in the 'VIEWS route controller' for this application
 const viewRouter = require('./routes/viewRouter');
 
+
 // ====== END OF APP CONTROLLERS AND UTILITIES ===== //
 
-// This starts this 'express' application
+// This starts this 'express' app
 const app = express();
 
 // This brings in the 'Pug' 'Template Engine'
